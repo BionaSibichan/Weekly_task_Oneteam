@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Task Management</title>
+</head>
+
+<body>
+
+<h1>Student Task Management</h1>
+
+<form id="studentForm">
+
+    Name:
+    <input type="text" id="name">
+    <br><br>
+
+    Subject:
+    <input type="text" id="subject">
+    <br><br>
+
+    Marks:
+    <input type="number" id="marks">
+    <br><br>
+
+    <button type="submit">Add</button>
+
+</form>
+
+<p id="message"></p>
+
+<br>
+
+<button id="avgBtn">Calculate Average</button>
+<button id="removeBtn">Remove Student</button>
+
+<p id="average"></p>
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>Marks</th>
+        <th>Result</th>
+    </tr>
+
+    <tbody id="table"></tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
