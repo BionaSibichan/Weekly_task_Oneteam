@@ -1,0 +1,6 @@
+john john123@gmail.com 10:30
+mary mary_99@yahoo.com 23:59
+bad_email notanemail.com 12:00
+sam sam@work.com 25:61
+alex alex.k@company.org 08:05
+noor noor@site 14:20
